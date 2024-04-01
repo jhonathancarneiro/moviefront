@@ -50,7 +50,7 @@ export default function Register() {
           <form onSubmit={handleSubmit}>
             <Label htmlFor="name"> Nome*</Label>
             <Input
-              className="mt-2 mb-4 bg-transparent rounded-lg w-96 "
+              className="mt-2 mb-4 bg-transparent rounded-lg md:w-96 w-full "
               type="name"
               id="name"
               placeholder="Nome"

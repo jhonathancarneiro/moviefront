@@ -21,7 +21,7 @@ export default function Home() {
           <form onSubmit={(e) => handleSubmit(e)}>
             <Label htmlFor="email"> Email*</Label>
             <Input
-              className="mt-2 mb-4 bg-transparent rounded-lg w-96"
+              className="mt-2 mb-4 bg-transparent rounded-lg md:w-96 w-full"
               type="email"
               id="email"
               placeholder="Email"
