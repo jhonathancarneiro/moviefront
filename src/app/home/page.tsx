@@ -16,7 +16,6 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
-import Logo from "@/components/logo";
 
 interface Movie {
   vote_average: number;
@@ -61,7 +60,6 @@ export default function Home() {
 
     fetchMovies();
   }, []);
-  const logo = "/logo.png ";
   const [selectedOption, setSelectedOption] = useState("");
 
   const handleOptionChange = (option: string) => {
@@ -85,7 +83,7 @@ export default function Home() {
   return (
     <>
       <header className="w-full h-46 bg-slate-900 flex justify-around items-center ">
-        <Logo></Logo>
+        <h1>LOGO</h1>
         <div className="flex-col justify-items-center text-center  m-8">
           <Avatar className="size-16 ">
             <AvatarImage src="https://play-lh.googleusercontent.com/42Bw-VZcK_OQOCa0BpFJrAK7VtNWv6dGPX4FJurmqWk6NgbYQZ_XmD8y_2Fqd_1KzGs" />
