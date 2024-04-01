@@ -1,37 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Meu Projeto Frontend - Teste Full Stack
+Bem-vindo ao Meu Projeto! Este é um projeto desenvolvido com o framework Next.js para criar uma aplicação web impressionante.
 
-## Getting Started
+Visão Geral
+Este projeto foi desenvolvido para criar uma aplicação web moderna com funcionalidades de login, exibição de filmes, autenticação de usuário e muito mais. Ele inclui recursos como:
 
-First, run the development server:
+Sistema de login com autenticação de usuário utilizando tokens JWT.
+Exibição de filmes com informações detalhadas.
+Interface de usuário responsiva utilizando Tailwind CSS.
+Integração com uma API externa para obter dados de filmes.
+Tecnologias Utilizadas
+Este projeto foi construído com as seguintes tecnologias:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Next.js: Framework React para desenvolvimento de aplicações web.
+React: Biblioteca JavaScript para construção de interfaces de usuário.
+Tailwind CSS: Framework CSS para criação de designs personalizados com classes utilitárias.
+Nookies: Biblioteca para gerenciamento de cookies no lado do cliente.
+Axios: Cliente HTTP para realizar requisições à API externa.
+Como Usar
+Para usar este projeto, siga estas etapas:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Clone este repositório em sua máquina local.
+Instale as dependências utilizando o comando npm install.
+Execute o projeto utilizando o comando npm run dev.
+Acesse o projeto em seu navegador utilizando o endereço http://localhost:3000.
+Certifique-se de configurar corretamente as variáveis de ambiente necessárias para a integração com a API externa e para a geração de tokens JWT.
+Testes
+Este projeto possui testes automatizados para garantir a qualidade do código. Para executar os testes, utilize o seguinte comando:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# moviefront
+bash
+Copy code
+npm test
+Os testes incluem testes unitários e de integração para diferentes partes do código, garantindo que o aplicativo funcione corretamente em diferentes cenários.
